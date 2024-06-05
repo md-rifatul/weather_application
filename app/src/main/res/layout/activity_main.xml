@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Enter The City"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="56dp"
+
+        />
+
+        
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="56dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Todays Weather of"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/cty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dhaka"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/temp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="38 °C"
+
+            android:textSize="70sp"
+          android:layout_gravity="center"
+
+            />
+        <ImageView
+            android:id="@+id/wicon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/wlogo"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mist"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/t1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Humidity :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Pressure :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/t3"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Wind Speed :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/bloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Current Location"/>
+
+        <Button
+            android:id="@+id/bex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Exit"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
